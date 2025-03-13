@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "MacBookAir",
+					"type": "home_bg",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -30,10 +30,50 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 855.5,
-						"y": 482,
-						"width": 1703,
-						"height": 956,
+						"x": 426,
+						"y": 241,
+						"width": 850,
+						"height": 478.9999999999999,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "play_btn",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"sid": 832692173744148,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 832692173744148,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 426.0974722032746,
+						"y": 306.205928168184,
+						"width": 300.4485464971399,
+						"height": 40.85619609054186,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

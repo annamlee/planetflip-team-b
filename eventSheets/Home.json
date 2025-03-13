@@ -1,5 +1,31 @@
 {
 	"name": "Home",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 180023636793156,
+					"parameters": {
+						"object": "play_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 236909669876091,
+					"parameters": {
+						"layout": "S1Q1"
+					}
+				}
+			],
+			"sid": 808484518800695
+		}
+	],
 	"sid": 284731567412490
 }
