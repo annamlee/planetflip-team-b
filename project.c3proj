@@ -28,7 +28,16 @@
 			"play_btn",
 			"Touch",
 			"instruction_btn",
-			"setting_btn"
+			"setting_btn",
+			"S1Q2_encourage_option",
+			"S1Q2_pick_option",
+			"S1Q2_report_option",
+			"S1Q2_organize_option",
+			"home_btn",
+			"progress_bars",
+			"S1Q2_bg",
+			"S1Q2_pick_message",
+			"next_btn"
 		],
 		"subfolders": []
 	},

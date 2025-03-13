@@ -1,5 +1,131 @@
 {
 	"name": "S1Q2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 354446066161643,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 883928351473300,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 505353585795728
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 533809559024820,
+					"parameters": {
+						"object": "S1Q2_pick_option",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 541014432992333,
+					"parameters": {
+						"layout": "S1Q2_pick"
+					}
+				}
+			],
+			"sid": 292778159320693
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 270132720574110,
+					"parameters": {
+						"object": "S1Q2_report_option",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 766812382900220,
+					"parameters": {
+						"layout": "S1Q2_report"
+					}
+				}
+			],
+			"sid": 771233642442316
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 718055921738856,
+					"parameters": {
+						"object": "S1Q2_encourage_option",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 697730529200648,
+					"parameters": {
+						"layout": "S1Q2_encourage"
+					}
+				}
+			],
+			"sid": 215077443209551
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 350943320272358,
+					"parameters": {
+						"object": "S1Q2_organize_option",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 435284233415305,
+					"parameters": {
+						"layout": "S1Q2_organize"
+					}
+				}
+			],
+			"sid": 700099135262948
+		}
+	],
 	"sid": 972860473820964
 }
