@@ -25,6 +25,56 @@
 				}
 			],
 			"sid": 808484518800695
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 206403836573192,
+					"parameters": {
+						"object": "instruction_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 330607689321907,
+					"parameters": {
+						"layout": "Instructions"
+					}
+				}
+			],
+			"sid": 433782685272222
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 729140143459407,
+					"parameters": {
+						"object": "setting_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 418595796458239,
+					"parameters": {
+						"layout": "Settings"
+					}
+				}
+			],
+			"sid": 753371389962991
 		}
 	],
 	"sid": 284731567412490
