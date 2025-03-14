@@ -30,7 +30,16 @@
 			"home_bg",
 			"play_btn",
 			"instruction_btn",
-			"setting_btn"
+			"setting_btn",
+			"S1Q2_bg",
+			"S1Q2C3",
+			"S1Q2C1",
+			"S1Q2C2",
+			"S1Q2C4",
+			"S1Q2M1",
+			"S1Q2M2",
+			"S1Q2M3",
+			"S1Q2M4"
 		],
 		"subfolders": []
 	},

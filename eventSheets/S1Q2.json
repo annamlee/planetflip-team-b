@@ -1,5 +1,131 @@
 {
 	"name": "S1Q2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 199404208542951,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 847485587884684,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 541372479341524
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 132316077710481,
+					"parameters": {
+						"object": "S1Q2C1",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 985498536458830,
+					"parameters": {
+						"layout": "S1Q2_pick"
+					}
+				}
+			],
+			"sid": 447811172497252
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 114928402132486,
+					"parameters": {
+						"object": "S1Q2C2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 773707089382321,
+					"parameters": {
+						"layout": "S1Q2_report"
+					}
+				}
+			],
+			"sid": 737416973556215
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 365809127249451,
+					"parameters": {
+						"object": "S1Q2C3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 986446814297743,
+					"parameters": {
+						"layout": "S1Q2_encourage"
+					}
+				}
+			],
+			"sid": 805828381912151
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 378943733314328,
+					"parameters": {
+						"object": "S1Q2C4",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 165340980546190,
+					"parameters": {
+						"layout": "S1Q2_organize"
+					}
+				}
+			],
+			"sid": 133984574199985
+		}
+	],
 	"sid": 972860473820964
 }

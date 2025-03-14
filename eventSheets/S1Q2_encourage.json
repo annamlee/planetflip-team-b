@@ -1,5 +1,56 @@
 {
 	"name": "S1Q2_encourage",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 136131173419113,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 482064769004846,
+					"parameters": {
+						"layout": "S1Q3"
+					}
+				}
+			],
+			"sid": 827668324264461
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 110416631371099,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 824570752090104,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 135222748410325
+		}
+	],
 	"sid": 744469395726370
 }

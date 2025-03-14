@@ -1,5 +1,56 @@
 {
 	"name": "S1Q2_pick",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 796763451035103,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 642335949108089,
+					"parameters": {
+						"layout": "S1Q3"
+					}
+				}
+			],
+			"sid": 126821386927454
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 492490650347783,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 645750618904566,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 492266663832572
+		}
+	],
 	"sid": 315761122925228
 }

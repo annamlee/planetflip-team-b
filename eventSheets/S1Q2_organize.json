@@ -1,5 +1,56 @@
 {
 	"name": "S1Q2_organize",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 885923354466426,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 745596589872676,
+					"parameters": {
+						"layout": "S1Q3"
+					}
+				}
+			],
+			"sid": 978560175109792
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 419935710656301,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 940152868051090,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 824234430052826
+		}
+	],
 	"sid": 556322653453393
 }
