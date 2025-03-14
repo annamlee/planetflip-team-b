@@ -1,5 +1,56 @@
 {
 	"name": "S1Q1_electric_stove",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 212259180077850,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 987075022615122,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 395957262560945
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 383477646089741,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 682364465781831,
+					"parameters": {
+						"layout": "S1Q2"
+					}
+				}
+			],
+			"sid": 226683100322776
+		}
+	],
 	"sid": 949036416761149
 }
