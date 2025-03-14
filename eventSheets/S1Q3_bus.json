@@ -1,5 +1,56 @@
 {
 	"name": "S1Q3_bus",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 465276775251150,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 201389093691929,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 876292863651109
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 289413993210389,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 815234761663227,
+					"parameters": {
+						"layout": "S2Q1"
+					}
+				}
+			],
+			"sid": 469930343728690
+		}
+	],
 	"sid": 139889953947917
 }

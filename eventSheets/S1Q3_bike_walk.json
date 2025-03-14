@@ -1,5 +1,56 @@
 {
 	"name": "S1Q3_bike_walk",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 425982697490731,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 979971451008232,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 256433216134977
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 466424344198088,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 221783984522520,
+					"parameters": {
+						"layout": "S2Q1"
+					}
+				}
+			],
+			"sid": 583256619427442
+		}
+	],
 	"sid": 331814531851057
 }
