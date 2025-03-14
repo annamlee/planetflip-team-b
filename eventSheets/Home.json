@@ -1,5 +1,81 @@
 {
 	"name": "Home",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 463801416197590,
+					"parameters": {
+						"object": "play_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 307800695302379,
+					"parameters": {
+						"layout": "S1Q1"
+					}
+				}
+			],
+			"sid": 564383963435439
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 848753464279136,
+					"parameters": {
+						"object": "instruction_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 931428004765219,
+					"parameters": {
+						"layout": "Instructions"
+					}
+				}
+			],
+			"sid": 218331579503403
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 336873027407350,
+					"parameters": {
+						"object": "setting_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 904599285145390,
+					"parameters": {
+						"layout": "Settings"
+					}
+				}
+			],
+			"sid": 940288139130754
+		}
+	],
 	"sid": 284731567412490
 }
