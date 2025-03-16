@@ -1,5 +1,56 @@
 {
 	"name": "S3Q1_remote",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 635321418148367,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 441223370401010,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 333992754556940
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 296302255374511,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 424499926821625,
+					"parameters": {
+						"layout": "S3Q2"
+					}
+				}
+			],
+			"sid": 817542877866115
+		}
+	],
 	"sid": 207087073572771
 }

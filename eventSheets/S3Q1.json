@@ -1,5 +1,106 @@
 {
 	"name": "S3Q1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 390468890148802,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 852457782628239,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 509669712539299
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 480880600839806,
+					"parameters": {
+						"object": "S3Q1C1",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 158228698528769,
+					"parameters": {
+						"layout": "S3Q1_remote"
+					}
+				}
+			],
+			"sid": 821933365816044
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 486038231539450,
+					"parameters": {
+						"object": "S3Q1C2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 238208343043807,
+					"parameters": {
+						"layout": "S3Q1_medical"
+					}
+				}
+			],
+			"sid": 784383140141083
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 413572408974063,
+					"parameters": {
+						"object": "S3Q1C3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 789609431239634,
+					"parameters": {
+						"layout": "S3Q1_commute"
+					}
+				}
+			],
+			"sid": 890655087850794
+		}
+	],
 	"sid": 810339039062832
 }

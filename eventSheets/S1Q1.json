@@ -1,5 +1,106 @@
 {
 	"name": "S1Q1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 918495716614105,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 368073854428852,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 455473335196478
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 262397352187359,
+					"parameters": {
+						"object": "S1Q1C1",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 947810920075083,
+					"parameters": {
+						"layout": "S1Q1_gas_stove"
+					}
+				}
+			],
+			"sid": 883530720636058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 906919741647649,
+					"parameters": {
+						"object": "S1Q1C2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 752772073192460,
+					"parameters": {
+						"layout": "S1Q1_electric_stove"
+					}
+				}
+			],
+			"sid": 319753169375534
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 215508310036310,
+					"parameters": {
+						"object": "S1Q1C3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 118934129424131,
+					"parameters": {
+						"layout": "S1Q1_solar_cooker"
+					}
+				}
+			],
+			"sid": 195867389446935
+		}
+	],
 	"sid": 831424089743250
 }

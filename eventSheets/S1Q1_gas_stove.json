@@ -1,5 +1,56 @@
 {
 	"name": "S1Q1_gas_stove",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 717963301226768,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 613984205282746,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 332130664502624
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 953607219693351,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 370237713230603,
+					"parameters": {
+						"layout": "S1Q2"
+					}
+				}
+			],
+			"sid": 134323221358519
+		}
+	],
 	"sid": 937061507181345
 }

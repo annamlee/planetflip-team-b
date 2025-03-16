@@ -1,7 +1,7 @@
 {
 	"name": "home_btn",
 	"plugin-id": "Sprite",
-	"sid": 750863906407870,
+	"sid": 423653693188651,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,7 +20,7 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 6576916,
+						"imageSpriteId": 9053199,
 						"collisionPoly": {
 							"points": [
 								0.4810126582278481,
@@ -46,7 +46,7 @@
 						"tag": ""
 					}
 				],
-				"sid": 914757362198950,
+				"sid": 640533680233487,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

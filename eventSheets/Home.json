@@ -7,7 +7,7 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 180023636793156,
+					"sid": 463801416197590,
 					"parameters": {
 						"object": "play_btn",
 						"type": "start"
@@ -18,13 +18,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 236909669876091,
+					"sid": 307800695302379,
 					"parameters": {
 						"layout": "S1Q1"
 					}
 				}
 			],
-			"sid": 808484518800695
+			"sid": 564383963435439
 		},
 		{
 			"eventType": "block",
@@ -32,7 +32,7 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 206403836573192,
+					"sid": 848753464279136,
 					"parameters": {
 						"object": "instruction_btn",
 						"type": "start"
@@ -43,13 +43,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 330607689321907,
+					"sid": 931428004765219,
 					"parameters": {
 						"layout": "Instructions"
 					}
 				}
 			],
-			"sid": 433782685272222
+			"sid": 218331579503403
 		},
 		{
 			"eventType": "block",
@@ -57,7 +57,7 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 729140143459407,
+					"sid": 336873027407350,
 					"parameters": {
 						"object": "setting_btn",
 						"type": "start"
@@ -68,13 +68,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 418595796458239,
+					"sid": 904599285145390,
 					"parameters": {
 						"layout": "Settings"
 					}
 				}
 			],
-			"sid": 753371389962991
+			"sid": 940288139130754
 		}
 	],
 	"sid": 284731567412490

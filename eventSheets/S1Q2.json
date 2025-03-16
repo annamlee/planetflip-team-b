@@ -7,7 +7,7 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 354446066161643,
+					"sid": 199404208542951,
 					"parameters": {
 						"object": "home_btn",
 						"type": "start"
@@ -18,13 +18,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 883928351473300,
+					"sid": 847485587884684,
 					"parameters": {
 						"layout": "Home"
 					}
 				}
 			],
-			"sid": 505353585795728
+			"sid": 541372479341524
 		},
 		{
 			"eventType": "block",
@@ -32,9 +32,9 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 533809559024820,
+					"sid": 132316077710481,
 					"parameters": {
-						"object": "S1Q2_pick_option",
+						"object": "S1Q2C1",
 						"type": "start"
 					}
 				}
@@ -43,13 +43,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 541014432992333,
+					"sid": 985498536458830,
 					"parameters": {
 						"layout": "S1Q2_pick"
 					}
 				}
 			],
-			"sid": 292778159320693
+			"sid": 447811172497252
 		},
 		{
 			"eventType": "block",
@@ -57,9 +57,9 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 270132720574110,
+					"sid": 114928402132486,
 					"parameters": {
-						"object": "S1Q2_report_option",
+						"object": "S1Q2C2",
 						"type": "start"
 					}
 				}
@@ -68,13 +68,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 766812382900220,
+					"sid": 773707089382321,
 					"parameters": {
 						"layout": "S1Q2_report"
 					}
 				}
 			],
-			"sid": 771233642442316
+			"sid": 737416973556215
 		},
 		{
 			"eventType": "block",
@@ -82,9 +82,9 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 718055921738856,
+					"sid": 365809127249451,
 					"parameters": {
-						"object": "S1Q2_encourage_option",
+						"object": "S1Q2C3",
 						"type": "start"
 					}
 				}
@@ -93,13 +93,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 697730529200648,
+					"sid": 986446814297743,
 					"parameters": {
 						"layout": "S1Q2_encourage"
 					}
 				}
 			],
-			"sid": 215077443209551
+			"sid": 805828381912151
 		},
 		{
 			"eventType": "block",
@@ -107,9 +107,9 @@
 				{
 					"id": "on-touched-object",
 					"objectClass": "Touch",
-					"sid": 350943320272358,
+					"sid": 378943733314328,
 					"parameters": {
-						"object": "S1Q2_organize_option",
+						"object": "S1Q2C4",
 						"type": "start"
 					}
 				}
@@ -118,13 +118,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 435284233415305,
+					"sid": 165340980546190,
 					"parameters": {
 						"layout": "S1Q2_organize"
 					}
 				}
 			],
-			"sid": 700099135262948
+			"sid": 133984574199985
 		}
 	],
 	"sid": 972860473820964

@@ -1,5 +1,56 @@
 {
 	"name": "S3Q1_medical",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 391194933699854,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 459406496697945,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 857056466759128
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 647429564478304,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 817248261442274,
+					"parameters": {
+						"layout": "S3Q2"
+					}
+				}
+			],
+			"sid": 482217190895994
+		}
+	],
 	"sid": 215106224263163
 }
