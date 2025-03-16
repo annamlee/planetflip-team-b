@@ -1,0 +1,106 @@
+{
+	"name": "S3Q2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 890035616405445,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 391120615674452,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 125785818428942
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 493883367404964,
+					"parameters": {
+						"object": "S3Q2C1",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 706471592345521,
+					"parameters": {
+						"layout": "S3Q2_local_produce"
+					}
+				}
+			],
+			"sid": 442911119237256
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 943272835114641,
+					"parameters": {
+						"object": "S3Q2C2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 544185652884272,
+					"parameters": {
+						"layout": "S3Q2_processed_alt"
+					}
+				}
+			],
+			"sid": 646000124142083
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 754410639577517,
+					"parameters": {
+						"object": "S3Q2C3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 160142060489541,
+					"parameters": {
+						"layout": "S3Q2_imported_produce"
+					}
+				}
+			],
+			"sid": 640241201920346
+		}
+	],
+	"sid": 407439739099483
+}

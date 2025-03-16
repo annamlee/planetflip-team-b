@@ -1,5 +1,56 @@
 {
 	"name": "S3Q2_imported_produce",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 577856067733388,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 893191100024103,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 761730858169011
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 800289357266552,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 337506030998369,
+					"parameters": {
+						"layout": "Congratulations"
+					}
+				}
+			],
+			"sid": 804727817224516
+		}
+	],
 	"sid": 546754713819861
 }

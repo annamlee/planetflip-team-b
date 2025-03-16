@@ -61,7 +61,15 @@
 			"S3Q1M1",
 			"S3Q1M2",
 			"Sprite3",
-			"S3Q1M3"
+			"S3Q1M3",
+			"S3Q2",
+			"S3Q2C1",
+			"S3Q2C2",
+			"Sprite",
+			"S3Q2C3",
+			"S3Q2M1",
+			"S3Q2M2",
+			"S3Q2M3"
 		],
 		"subfolders": []
 	},
@@ -155,7 +163,8 @@
 			"S3Q1",
 			"S3Q2_local_produce",
 			"S3Q2_processed_alt",
-			"S3Q2_imported_produce"
+			"S3Q2_imported_produce",
+			"S3Q2"
 		],
 		"subfolders": []
 	},

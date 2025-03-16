@@ -1,5 +1,56 @@
 {
 	"name": "S3Q2_processed_alt",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 849179304303932,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 406045297814321,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 357533110701758
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 974198728888696,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 205809780923462,
+					"parameters": {
+						"layout": "Congratulations"
+					}
+				}
+			],
+			"sid": 448796762291129
+		}
+	],
 	"sid": 980800994447752
 }

@@ -1,5 +1,56 @@
 {
 	"name": "S3Q2_local_produce",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 121958262384634,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 123414856365658,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 789888631908556
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 696160075987520,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 474624406901579,
+					"parameters": {
+						"layout": "Congratulations"
+					}
+				}
+			],
+			"sid": 772353213599550
+		}
+	],
 	"sid": 292806832626578
 }
