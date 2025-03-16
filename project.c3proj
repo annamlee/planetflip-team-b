@@ -19,6 +19,13 @@
 			"name": "Touch",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Drag & Drop",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "iapeyixlmmg",
@@ -60,16 +67,30 @@
 			"S3Q1_bg",
 			"S3Q1M1",
 			"S3Q1M2",
-			"Sprite3",
 			"S3Q1M3",
 			"S3Q2",
 			"S3Q2C1",
 			"S3Q2C2",
-			"Sprite",
 			"S3Q2C3",
 			"S3Q2M1",
 			"S3Q2M2",
-			"S3Q2M3"
+			"S3Q2M3",
+			"Sprite",
+			"S3Q3Egg",
+			"S3Q3CannedFood",
+			"S3Q3CoffeeBean",
+			"S3Q3Meat",
+			"S3Q3Avocado",
+			"S3Q3Burger",
+			"S3Q3Apple",
+			"S3Q3Cereal",
+			"S3Q3PineApple",
+			"S3Q3B1",
+			"S3Q3B2",
+			"S3Q3B3",
+			"S3Q3Carrot",
+			"Proceed",
+			"S3Q3FM"
 		],
 		"subfolders": []
 	},
@@ -120,7 +141,9 @@
 			"S3Q1",
 			"S3Q2_local_produce",
 			"S3Q2_processed_alt",
-			"S3Q2_imported_produce"
+			"S3Q2_imported_produce",
+			"S3Q3",
+			"S3Q3FM"
 		],
 		"subfolders": []
 	},
@@ -164,7 +187,9 @@
 			"S3Q2_local_produce",
 			"S3Q2_processed_alt",
 			"S3Q2_imported_produce",
-			"S3Q2"
+			"S3Q2",
+			"S3Q3",
+			"S3Q3FM"
 		],
 		"subfolders": []
 	},

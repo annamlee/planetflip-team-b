@@ -1,0 +1,437 @@
+{
+	"name": "S3Q3",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Timer",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 231725260765434
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 910027509431123,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 487737302390531,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 352770081708088
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 342423205041537,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 468013044068577,
+					"parameters": {
+						"layout": "S3Q3FM"
+					}
+				}
+			],
+			"sid": 966347172795789
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Correct",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Apple",
+							"sid": 624054946578451,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Apple",
+							"sid": 974287329483513,
+							"parameters": {
+								"object": "S3Q3B1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Apple",
+							"sid": 924383755322382,
+							"parameters": {
+								"x": "385",
+								"y": "116"
+							}
+						}
+					],
+					"sid": 118078014941932
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Avocado",
+							"sid": 758122781447062,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Avocado",
+							"sid": 711662172613244,
+							"parameters": {
+								"object": "S3Q3B3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Avocado",
+							"sid": 428663549377174,
+							"parameters": {
+								"x": "747",
+								"y": "101"
+							}
+						}
+					],
+					"sid": 496189503023336
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Burger",
+							"sid": 439146063607576,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Burger",
+							"sid": 139570209952358,
+							"parameters": {
+								"object": "S3Q3B2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Burger",
+							"sid": 500983932351656,
+							"parameters": {
+								"x": "574",
+								"y": "78"
+							}
+						}
+					],
+					"sid": 974513758603203
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3CannedFood",
+							"sid": 273110098362386,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3CannedFood",
+							"sid": 437055643298350,
+							"parameters": {
+								"object": "S3Q3B2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3CannedFood",
+							"sid": 122466598378010,
+							"parameters": {
+								"x": "470",
+								"y": "101"
+							}
+						}
+					],
+					"sid": 769919243947037
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Cereal",
+							"sid": 434017803649420,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Cereal",
+							"sid": 296834495777980,
+							"parameters": {
+								"object": "S3Q3B2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Cereal",
+							"sid": 242116937958937,
+							"parameters": {
+								"x": "515",
+								"y": "116"
+							}
+						}
+					],
+					"sid": 295332108491068
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3CoffeeBean",
+							"sid": 752045017377875,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3CoffeeBean",
+							"sid": 151992838941061,
+							"parameters": {
+								"object": "S3Q3B3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3CoffeeBean",
+							"sid": 774750816082257,
+							"parameters": {
+								"x": "645",
+								"y": "82"
+							}
+						}
+					],
+					"sid": 160948988976924
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Egg",
+							"sid": 799908906224708,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Egg",
+							"sid": 165175731503180,
+							"parameters": {
+								"object": "S3Q3B1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Egg",
+							"sid": 120264013483227,
+							"parameters": {
+								"x": "306",
+								"y": "65"
+							}
+						}
+					],
+					"sid": 220691882530496
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Meat",
+							"sid": 429584487904525,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Meat",
+							"sid": 806209048272253,
+							"parameters": {
+								"object": "S3Q3B1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Meat",
+							"sid": 506063832192267,
+							"parameters": {
+								"x": "306",
+								"y": "116"
+							}
+						}
+					],
+					"sid": 498239205591108
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3PineApple",
+							"sid": 433411377717571,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3PineApple",
+							"sid": 619965715039704,
+							"parameters": {
+								"object": "S3Q3B3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3PineApple",
+							"sid": 599955383676680,
+							"parameters": {
+								"x": "685",
+								"y": "116"
+							}
+						}
+					],
+					"sid": 512060526101392
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "S3Q3Carrot",
+							"sid": 743763573028967,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "S3Q3Carrot",
+							"sid": 788226218638806,
+							"parameters": {
+								"object": "S3Q3B1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "S3Q3Carrot",
+							"sid": 703218134462620,
+							"parameters": {
+								"x": "385",
+								"y": "65"
+							}
+						}
+					],
+					"sid": 596028151576077
+				}
+			],
+			"sid": 617309671768421
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 222817765981844,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 971641686868007,
+					"parameters": {
+						"variable": "Timer",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 403090054664211
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 235773389566053,
+					"parameters": {
+						"variable": "Timer",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "next_btn",
+					"sid": 912831431036158,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 726976361571268
+		}
+	],
+	"sid": 406645982497035
+}

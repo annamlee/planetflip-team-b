@@ -1,32 +1,54 @@
 {
-	"name": "Sprite3",
+	"name": "S3Q3Cereal",
 	"plugin-id": "Sprite",
-	"sid": 126076283089449,
+	"sid": 694025235943774,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 844189126755374
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 81,
+						"height": 101,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 8354617,
+						"imageSpriteId": 3010967,
+						"collisionPoly": {
+							"points": [
+								0.2345679012345679,
+								0,
+								0.9876543209876543,
+								0,
+								0.9876543209876543,
+								0.9405940594059405,
+								0.7530864197530864,
+								1,
+								0,
+								1,
+								0,
+								0.04950495049504951
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 465978525855631,
+				"sid": 519766300739833,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

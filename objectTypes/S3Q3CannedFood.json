@@ -1,0 +1,76 @@
+{
+	"name": "S3Q3CannedFood",
+	"plugin-id": "Sprite",
+	"sid": 143039554198085,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "DragDrop",
+			"sid": 422110950344310
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 83,
+						"height": 91,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5882704,
+						"collisionPoly": {
+							"points": [
+								0.3614457831325301,
+								0,
+								0.6385542168674698,
+								0,
+								0.7108433734939759,
+								0.01098901098901099,
+								0.8313253012048193,
+								0.06593406593406594,
+								0.8313253012048193,
+								0.8461538461538461,
+								0.7951807228915663,
+								0.8791208791208791,
+								0.7228915662650602,
+								0.9010989010989011,
+								0.6626506024096386,
+								0.9120879120879121,
+								0.3373493975903614,
+								0.9120879120879121,
+								0.24096385542168675,
+								0.8901098901098901,
+								0.1686746987951807,
+								0.8461538461538461,
+								0.21686746987951808,
+								0.03296703296703297,
+								0.2891566265060241,
+								0.01098901098901099
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 872434886453272,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

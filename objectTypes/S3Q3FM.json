@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "S3Q3FM",
 	"plugin-id": "Sprite",
-	"sid": 658335086484677,
+	"sid": 463643192444375,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
@@ -20,13 +20,13 @@
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 80385,
+						"imageSpriteId": 3079370,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 220505895286690,
+				"sid": 503370360228814,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
