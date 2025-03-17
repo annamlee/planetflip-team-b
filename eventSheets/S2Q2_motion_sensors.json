@@ -1,5 +1,56 @@
 {
 	"name": "S2Q2_motion_sensors",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 172750601333713,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 741970648462116,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 936537479760665
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 879564163434349,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 192606010393713,
+					"parameters": {
+						"layout": "S2Q4"
+					}
+				}
+			],
+			"sid": 307524878747275
+		}
+	],
 	"sid": 613749381351579
 }

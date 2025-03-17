@@ -1,5 +1,56 @@
 {
 	"name": "S2Q2_energy_saving_office_policy",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 449013385439868,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 488717344691630,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 939887622097443
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 822722644437347,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 980144899435535,
+					"parameters": {
+						"layout": "S2Q4"
+					}
+				}
+			],
+			"sid": 438302314504162
+		}
+	],
 	"sid": 933078034903050
 }

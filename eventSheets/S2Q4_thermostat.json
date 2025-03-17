@@ -1,5 +1,56 @@
 {
 	"name": "S2Q4_thermostat",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 745841292088678,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 129278678692177,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 111682922705410
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 145139259374576,
+					"parameters": {
+						"object": "proceedtonextstage",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 772722067488925,
+					"parameters": {
+						"layout": "S3Q1"
+					}
+				}
+			],
+			"sid": 768676499357481
+		}
+	],
 	"sid": 577204432926164
 }

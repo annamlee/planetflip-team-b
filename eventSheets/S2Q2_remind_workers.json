@@ -1,5 +1,56 @@
 {
 	"name": "S2Q2_remind_workers",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 635598936610514,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 812624224315375,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 456742413282839
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 192128839063711,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 629654376946813,
+					"parameters": {
+						"layout": "S2Q4"
+					}
+				}
+			],
+			"sid": 335843779281118
+		}
+	],
 	"sid": 897039195179522
 }

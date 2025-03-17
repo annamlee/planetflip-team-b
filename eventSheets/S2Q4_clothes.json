@@ -1,5 +1,56 @@
 {
 	"name": "S2Q4_clothes",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 114141002634838,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 139607316515649,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 767521399634858
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 328111434778361,
+					"parameters": {
+						"object": "proceedtonextstage",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 813445546525327,
+					"parameters": {
+						"layout": "S3Q1"
+					}
+				}
+			],
+			"sid": 327186797052244
+		}
+	],
 	"sid": 917606453146879
 }

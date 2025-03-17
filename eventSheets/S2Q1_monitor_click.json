@@ -1,5 +1,106 @@
 {
 	"name": "S2Q1_monitor_click",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 129466212722517,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 572554905842480,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 678019141592695
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 404587268404129,
+					"parameters": {
+						"object": "expressshipping",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 920869277875988,
+					"parameters": {
+						"layout": "S2Q1_express_shipping"
+					}
+				}
+			],
+			"sid": 133391312192579
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 107468212830906,
+					"parameters": {
+						"object": "standardshipping",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 740395712803021,
+					"parameters": {
+						"layout": "S2Q1_standard_shipping"
+					}
+				}
+			],
+			"sid": 162217669249893
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 842259130189671,
+					"parameters": {
+						"object": "groupshipping",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 571156069880178,
+					"parameters": {
+						"layout": "S2Q1_GOHF"
+					}
+				}
+			],
+			"sid": 191866196419340
+		}
+	],
 	"sid": 634506490312705
 }

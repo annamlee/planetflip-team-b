@@ -28,17 +28,7 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 107996142753565,
-					"parameters": {
-						"object": "Proceed",
-						"type": "start"
-					}
-				}
-			],
+			"conditions": [],
 			"actions": [
 				{
 					"id": "go-to-layout",

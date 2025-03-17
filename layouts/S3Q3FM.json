@@ -47,46 +47,6 @@
 					}
 				},
 				{
-					"type": "Proceed",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 109,
-					"sid": 541609884287710,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 541609884287710,
-						"expanded": true,
-						"folderName": "",
-						"indexInFolder": -1,
-						"folderNestingLevel": -1
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 667.7729103781958,
-						"y": 265.50013871626413,
-						"width": 256.36363636363626,
-						"height": 28.181818181818187,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "S3Q3FM",
 					"properties": {
 						"initially-visible": true,

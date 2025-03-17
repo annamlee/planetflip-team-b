@@ -1,5 +1,56 @@
 {
 	"name": "S2Q1_GOHF",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 580759596650691,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 934011897946493,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 243633759166960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 698565771419231,
+					"parameters": {
+						"object": "groupshipping",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 741513837356259,
+					"parameters": {
+						"layout": "S2Q2"
+					}
+				}
+			],
+			"sid": 257748616753966
+		}
+	],
 	"sid": 443830128782392
 }

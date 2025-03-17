@@ -1,5 +1,56 @@
 {
 	"name": "S2Q1_standard_shipping",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 151081713851533,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 672453173985609,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 151462488490558
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 846939267302957,
+					"parameters": {
+						"object": "next_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 168310048976548,
+					"parameters": {
+						"layout": "S2Q2"
+					}
+				}
+			],
+			"sid": 883866350233403
+		}
+	],
 	"sid": 248435260315523
 }

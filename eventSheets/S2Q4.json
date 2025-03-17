@@ -1,5 +1,131 @@
 {
 	"name": "S2Q4",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 751439687412621,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 616352465915239,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 918840934626725
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 815343150395366,
+					"parameters": {
+						"object": "S2Q4C",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 914400269318458,
+					"parameters": {
+						"layout": "S2Q4_clothes"
+					}
+				}
+			],
+			"sid": 265978526195849
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 976183778562968,
+					"parameters": {
+						"object": "S2Q4C2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 328161909848547,
+					"parameters": {
+						"layout": "S2Q4_heated_blanket"
+					}
+				}
+			],
+			"sid": 888476450097779
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 368439083138218,
+					"parameters": {
+						"object": "S2Q4C3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 687427128706709,
+					"parameters": {
+						"layout": "S2Q4_heater"
+					}
+				}
+			],
+			"sid": 438897125473391
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 471147419934952,
+					"parameters": {
+						"object": "S2Q4C4",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 283967736213979,
+					"parameters": {
+						"layout": "S2Q4_thermostat"
+					}
+				}
+			],
+			"sid": 437393380581837
+		}
+	],
 	"sid": 848593234131487
 }

@@ -1,5 +1,56 @@
 {
 	"name": "S2Q1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 608066348063674,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 194145238362275,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 122679211325796
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 416040645630460,
+					"parameters": {
+						"object": "S2Q1Desktop",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 415890945788978,
+					"parameters": {
+						"layout": "S2Q1_monitor_click"
+					}
+				}
+			],
+			"sid": 757808536555309
+		}
+	],
 	"sid": 919442306772811
 }

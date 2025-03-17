@@ -1,5 +1,56 @@
 {
 	"name": "S2Q4_heater",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 412599650909277,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 812748933092423,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 509462563542502
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 916132629785740,
+					"parameters": {
+						"object": "proceedtonextstage",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 694060113406816,
+					"parameters": {
+						"layout": "S3Q1"
+					}
+				}
+			],
+			"sid": 641760296361764
+		}
+	],
 	"sid": 126237939908095
 }

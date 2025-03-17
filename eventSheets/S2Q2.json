@@ -1,5 +1,106 @@
 {
 	"name": "S2Q2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 340346686822912,
+					"parameters": {
+						"object": "home_btn",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 426002398780785,
+					"parameters": {
+						"layout": "Home"
+					}
+				}
+			],
+			"sid": 305934545406767
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 811941782942699,
+					"parameters": {
+						"object": "S2Q2C",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 987681788217392,
+					"parameters": {
+						"layout": "S2Q2_motion_sensors"
+					}
+				}
+			],
+			"sid": 264452308499971
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 347040868084135,
+					"parameters": {
+						"object": "S2Q2C2",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 355483868823020,
+					"parameters": {
+						"layout": "S2Q2_energy_saving_office_policy"
+					}
+				}
+			],
+			"sid": 297963404184652
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 429688988534077,
+					"parameters": {
+						"object": "S2Q2C3",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 546023102380270,
+					"parameters": {
+						"layout": "S2Q2_remind_workers"
+					}
+				}
+			],
+			"sid": 239853564170690
+		}
+	],
 	"sid": 739427351387618
 }
